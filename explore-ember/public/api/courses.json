@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "type": "course",
+      "id": "redis",
+      "attributes": {
+        "name": "Build your own Redis",
+        "description": "Learn about TCP servers, the Redis protocol and more",
+        "stagesCount": 55,
+        "iconSrc": "https://app.codecrafters.io/assets/bb2e492a834d9f374909.svg",
+        "isBeta": false,
+        "isFree": false
+      }
+    },
+    {
+      "type": "course",
+      "id": "http-server",
+      "attributes": {
+        "name": "Build your own HTTP Server",
+        "description": "Learn about TCP servers, the HTTP protocol and more",
+        "stagesCount": 11,
+        "iconSrc": "https://app.codecrafters.io/assets/0f714c1ea976b8a06318.svg",
+        "isBeta": false,
+        "isFree": false
+      }
+    },
+    {
+      "type": "course",
+      "id": "interpreter",
+      "attributes": {
+        "name": "Build your own Interpreter",
+        "description": "Learn about tokenization, ASTs, tree-walk interpreters and more",
+        "stagesCount": 38,
+        "iconSrc": "https://app.codecrafters.io/assets/c3c1cae0bd79e202e835.svg",
+        "isBeta": true,
+        "isFree": false
+      }
+    },
+    {
+      "type": "course",
+      "id": "grep",
+      "attributes": {
+        "name": "Build your own grep",
+        "description": "Learn about regex syntax: character classes, quantifiers and more",
+        "stagesCount": 15,
+        "iconSrc": "https://app.codecrafters.io/assets/109ec0e55ebb85412952.svg",
+        "isBeta": false,
+        "isFree": true
+      }
+    }
+  ]
+}

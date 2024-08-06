@@ -1,0 +1,14 @@
+{
+  "data": {
+    "type": "course",
+    "id": "grep",
+    "attributes": {
+      "name": "Build your own grep",
+      "description": "Learn about regex syntax: character classes, quantifiers and more",
+      "stagesCount": 15,
+      "iconSrc": "https://app.codecrafters.io/assets/109ec0e55ebb85412952.svg",
+      "isBeta": false,
+      "isFree": true
+    }
+  }
+}

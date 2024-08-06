@@ -1,0 +1,14 @@
+{
+  "data": {
+    "type": "course",
+    "id": "interpreter",
+    "attributes": {
+      "name": "Build your own Interpreter",
+      "description": "Learn about tokenization, ASTs, tree-walk interpreters and more",
+      "stagesCount": 38,
+      "iconSrc": "https://app.codecrafters.io/assets/c3c1cae0bd79e202e835.svg",
+      "isBeta": true,
+      "isFree": false
+    }
+  }
+}

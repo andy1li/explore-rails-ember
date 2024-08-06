@@ -1,0 +1,172 @@
+<div class="shadow relative bg-white" data-test-header="">
+  <div
+    class="container lg:max-w-screen-lg mx-auto flex items-stretch flex-col md:flex-row px-3 md:px-6"
+  >
+    <div class="flex items-center justify-between">
+      <div class="flex">
+        <div class="text-gray-600 pr-5 text-sm flex-grow">
+          <a
+            id="ember4"
+            class="ember-view active flex items-center"
+            href="/catalog"
+          >
+            <img
+              class="h-8 w-8 my-3 mr-2"
+              src="https://app.codecrafters.io/assets/7408d202b2bb110054fc.svg"
+              alt="CodeCrafters"
+            />
+            CodeCrafters
+          </a>
+        </div>
+      </div>
+
+      <button
+        class="md:hidden text-gray-600 pl-10 py-3 focus:outline-none"
+        type="button"
+      >
+        <svg
+          class="fill-current"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+        >
+          <path
+            class="heroicon-ui"
+            d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+          ></path>
+        </svg>
+      </button>
+    </div>
+
+    <div class="hidden md:flex items-center justify-between flex-grow">
+      <div class="flex items-center">
+        <div class="bg-gray-200 w-px h-5 mr-3"></div>
+
+        <a
+          id="ember47"
+          class="ember-view active text-sm text-gray-600 px-2"
+          data-test-header-link=""
+          href="/catalog"
+        >
+          Catalog
+        </a>
+
+        <a
+          id="ember48"
+          class="ember-view text-sm text-gray-600 px-2 cursor-not-allowed"
+          data-test-header-link=""
+          href="#"
+        >
+          Badges
+        </a>
+
+        <a
+          id="ember49"
+          class="ember-view text-sm text-gray-600 px-2 cursor-not-allowed"
+          data-test-header-link=""
+          href="#"
+        >
+          Vote
+        </a>
+
+      </div>
+
+      <div class="invisible md:visible flex items-center ml-6">
+        {{!----}}
+        <div class="ember-basic-dropdown">
+          <div
+            id="ember9"
+            class="ember-view ember-basic-dropdown-trigger ember-basic-dropdown-trigger--in-place"
+            tabindex="0"
+            role="button"
+            data-ebd-id="ember8-trigger"
+            aria-owns="ember-basic-dropdown-content-ember8"
+            aria-controls="ember-basic-dropdown-content-ember8"
+            aria-expanded="false"
+            aria-disabled="false"
+          >
+
+            <div class="mr-4">
+
+              <div
+                role="button"
+                class="rounded border border-gray-200 text-gray-600 hover:border-gray-600 transition-colors px-2 py-1 text-xs cursor-not-allowed"
+                data-test-feedback-button=""
+              >
+                Feedback
+              </div>
+
+            </div>
+
+          </div>
+
+          <div
+            id="ember-basic-dropdown-content-ember8"
+            class="ember-basic-dropdown-content-placeholder"
+            style="display: none;"
+          ></div>
+
+        </div>
+
+        <a
+          id="ember10"
+          class="ember-view inline-block border px-2 py-1 rounded shadow-sm text-xs font-semibold bg-teal-500 hover:bg-teal-600 border-teal-500 hover:border-teal-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-500 mr-4 cursor-not-allowed"
+          data-test-upgrade-button=""
+          href="#"
+        >
+
+          <span class="flex items-center gap-x-1">
+            <span>Upgrade</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-4"
+            ><path
+                d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z"
+              ></path></svg>
+          </span>
+
+        </a>
+
+        <div
+          id="ember12"
+          class="ember-view ember-basic-dropdown-trigger"
+          tabindex="0"
+          role="button"
+          data-ebd-id="ember11-trigger"
+          aria-owns="ember-basic-dropdown-content-ember11"
+          aria-controls="ember-basic-dropdown-content-ember11"
+          aria-expanded="false"
+          aria-disabled="false"
+        >
+
+          <div
+            class="text-gray-600 flex items-center justify-between py-3 outline-none w-full sm:w-auto cursor-not-allowed"
+            data-test-account-dropdown-trigger=""
+          >
+            <span class="mr-0.5 text-sm md:text-xs">
+              username
+            </span>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="fill-current w-5 transform transition-all"
+            ><path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path></svg>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    {{!----}}
+  </div>
+</div>

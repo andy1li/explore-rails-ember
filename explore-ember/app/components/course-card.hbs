@@ -1,0 +1,112 @@
+<a
+  class="ember-view group bg-white p-5 rounded-md shadow hover:shadow-md transition-shadow cursor-pointer flex flex-col justify-between border relative"
+  data-test-course-card=""
+  href="/courses/{{@course.id}}/overview"
+>
+  <div
+    class="w-8 transform scale-100 group-hover:scale-105 flex-shrink-0 transition-transform absolute top-5 right-5"
+  >
+    <img alt="{{@course.name}}" src="{{@course.iconSrc}}" />
+  </div>
+
+  <div class="mb-6">
+    <div class="flex items-center mb-3 flex-wrap gap-y-2 pr-10">
+      <div
+        class="text-lg font-semibold text-gray-800 mr-2"
+        data-test-course-name=""
+      >
+        <span>{{@course.name}}</span>
+      </div>
+    </div>
+
+    <div
+      class="text-sm leading-relaxed text-gray-600 pr-10"
+      data-test-course-description=""
+    >
+      <span>{{@course.description}}</span>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-between">
+    {{#if @course.isBeta}}
+      <div class="flex items-center gap-3">
+        <div
+          class="inline-flex text-xs text-white font-semibold border border-teal-500 bg-teal-500 rounded px-1.5 py-0.5 w-fit mr-3 ember-tooltip-target"
+          data-test-course-beta-label=""
+          aria-describedby="tooltip_44tgd54ce6"
+          title=""
+        >
+          FREE DURING BETA
+          <div id="ember26" class="ember-tooltip-base ember-view">{{!}}</div>
+        </div>
+        <div
+          class="tooltip ember-tooltip ember-tooltip-effect-slide"
+          role="tooltip"
+          style="margin: 0px 0px 10px; position: absolute; will-change: transform; visibility: hidden; top: 0px; left: 0px; transform: translate3d(-12px, 3px, 0px);"
+          id="tooltip_44tgd54ce6"
+          aria-hidden="true"
+          x-placement="top"
+        >
+          <div
+            class="tooltip-arrow ember-tooltip-arrow"
+            style="left: 90px;"
+          ></div>
+          <div class="tooltip-inner ember-tooltip-inner" id="ember26-et-target">
+            <div>
+              This challenge is free to try when it's in beta. We keep
+              challenges in beta for a few weeks to gather feedback.
+            </div>
+          </div>
+        </div></div>
+    {{else if @course.isFree}}
+      <div class="flex items-center gap-3">
+        <div
+          class="inline-flex text-xs text-white font-semibold border border-teal-500 bg-teal-500 rounded px-1.5 py-0.5 w-fit ember-tooltip-target"
+          data-test-course-free-label=""
+        >
+          FREE THIS MONTH
+          <div id="ember31" class="ember-tooltip-base ember-view">
+            <div>
+              {{!}}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{else}}
+      <div class="flex items-center gap-3">
+        <div class="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="w-4 mr-1 fill-current text-gray-400"
+          ><path
+              d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838l-2.727 1.17 1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zm5.99 7.176A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"
+            ></path></svg>
+          <span class="text-xs text-gray-500">{{@course.stagesCount}}
+            stages</span>
+        </div>
+      </div>
+    {{/if}}
+
+    <div class="flex items-center">
+      <span
+        class="font-bold text-teal-500 text-xs mr-2 opacity-0 group-hover:opacity-100 transition-opacity"
+        data-test-action-text=""
+      >
+        Start
+      </span>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="w-4 fill-current text-gray-300 group-hover:text-teal-500 transition-colors"
+      ><path
+          fill-rule="evenodd"
+          d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+          clip-rule="evenodd"
+        ></path></svg>
+    </div>
+  </div>
+</a>

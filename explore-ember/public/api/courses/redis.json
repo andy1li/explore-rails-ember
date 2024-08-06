@@ -1,0 +1,14 @@
+{
+  "data": {
+    "type": "course",
+    "id": "redis",
+    "attributes": {
+      "name": "Build your own Redis",
+      "description": "Learn about TCP servers, the Redis protocol and more",
+      "stagesCount": 55,
+      "iconSrc": "https://app.codecrafters.io/assets/bb2e492a834d9f374909.svg",
+      "isBeta": false,
+      "isFree": false
+    }
+  }
+}
