@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  stages_count: 1
+  icon_src: MyString
+  is_beta: false
+  is_free: false
+
+two:
+  name: MyString
+  description: MyString
+  stages_count: 1
+  icon_src: MyString
+  is_beta: false
+  is_free: false

@@ -6,7 +6,7 @@ import config from 'explore-ember/config/environment';
 import 'explore-ember/app.css';
 
 setBuildURLConfig({
-  host: 'http://localhost:3000',
+  host: 'http://localhost:4201',
 });
 
 export default class App extends Application {
